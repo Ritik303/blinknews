@@ -15,11 +15,6 @@ const FetchData=({cat})=>{
     };
     useEffect(() =>{
         fetchData();
-        // let ll="home jjjj kslssslslls";
-        // let dd= ll.includes('home');
-        // console.log(dd);
-
-    
     },[cat])
     return (
     <div className="container my-4 " ><u><h3>TOP HEADLINES</h3></u>

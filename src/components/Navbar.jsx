@@ -13,7 +13,7 @@ export const Navbar=()=>{
     setQuery(search.toLowerCase());
   }
 
-  return (<div style={{position:"fixed",zIndex:"2",width:"100%",top:"0"}}><nav class="navbar navbar-expand-lg bg-dark" >
+  return (<div style={{position:"fixed",zIndex:"2",width:"100%",top:"0",boxShadow:"5px 5px 10px #3f3f4a"}}><nav class="navbar navbar-expand-lg bg-dark" >
   <div class="container-fluid">
     <div ><b style={{fontSize:"30px" }}><img src="./news.png"style={{height:"60px"}}/></b></div>
     <nav class="navbar bg-dark"> 
