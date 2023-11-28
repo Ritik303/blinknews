@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import FetchData from "../components/FetchData";
 const Home =()=>{
     return (
-    <div style={{marginTop:"80px"}}>
+    <div style={{marginTop:"70px"}}>
         <Hero/>
         <FetchData/>
     </div>

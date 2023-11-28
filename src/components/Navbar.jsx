@@ -15,7 +15,7 @@ export const Navbar=()=>{
 
   return (<div style={{position:"fixed",zIndex:"2",width:"100%",top:"0"}}><nav class="navbar navbar-expand-lg bg-dark" >
   <div class="container-fluid">
-    <Link class="navbar-brand text-white" to="/" ><b style={{fontSize:"30px" }}><img src="./news.png"style={{height:"60px"}}/></b></Link>
+    <div ><b style={{fontSize:"30px" }}><img src="./news.png"style={{height:"60px"}}/></b></div>
     <nav class="navbar bg-dark"> 
  
 </nav>

@@ -33,7 +33,6 @@ const App=()=>{
     <Footer/>
   </Router>
   </QueryContext.Provider>
-  
   </>
   );
 };
