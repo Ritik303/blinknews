@@ -13,7 +13,7 @@ export const Navbar=()=>{
     setQuery(search.toLowerCase());
   }
 
-  return (<div style={{position:"fixed",zIndex:"2",width:"100%",top:"0",boxShadow:"5px 5px 10px #3f3f4a"}}><nav class="navbar navbar-expand-lg bg-dark" >
+  return (<div style={{zIndex:"2",position:"fixed",width:"100%",top:"0",boxShadow:"5px 5px 10px #3f3f4a"}}><nav class="navbar navbar-expand-lg bg-dark" >
   <div class="container-fluid">
     <div ><b style={{fontSize:"30px" }}><img src="./news.png"style={{height:"60px"}}/></b></div>
     <nav class="navbar bg-dark"> 
@@ -48,16 +48,19 @@ export const Navbar=()=>{
         <li class="nav-item">
           <Link class="nav-link active text-white" aria-current="page" to="/technology" text-white>Technology</Link>
         </li>
-      </ul>
-      
-    </div>
-  </div>
-  <div class="container-fluid ">
+        <li>
+        <div class="container-fluid ">
     <form class="d-flex " role="search" onSubmit={(e)=>{e.preventDefault()}}>
       <input class="form-control me-2 " type="search" id="search" placeholder="Search" aria-label="Search" value={search} onChange={(e)=>{setSearch(e.target.value)}}/>
       <button class="btn btn-outline-success" onClick={handleSearch} type="submit">Search</button>
     </form>
   </div>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+ 
 </nav></div>
   )
 }
